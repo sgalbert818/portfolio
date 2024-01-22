@@ -1,0 +1,142 @@
+/* color palette 
+Slate: #262626
+Secondhand Grey: #3f3f3f 
+Whitish: #f5f5f5
+Light grey: #dcdcdc
+*/
+
+body {
+    background-color: #262626;
+    margin: 0; 
+    padding: 0; 
+}
+
+h1 {
+    font-family: 'Karla', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    color: #f5f5f5;
+    letter-spacing: 3px;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+h4 {
+    font-size: 0.8em;
+    line-height: 1.6em;
+}
+
+h2, h3, h4 {
+    text-transform: uppercase;
+    font-family: 'Spectral', serif;
+    color: #f5f5f5;
+    letter-spacing: 1px;
+}
+
+header {
+    min-height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #262626;
+}
+
+.header-img, .header-text {
+    min-height: auto;
+    width: 40%;
+    text-align: center;
+}
+
+.header-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container {
+    height: 275px;
+    width: 275px;
+}
+
+.img-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.458);
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.top, .middle, .bottom {
+    margin: 15px;
+}
+
+.top {
+    line-height: 10px;
+    margin-bottom: 5px;
+}
+
+.middle {
+    max-width: 60%;
+    margin: 0 15px;
+}
+
+#resume-button {
+    height: 60px;
+    width: 250px;
+    line-height: 7px;
+    border: 2px solid #f5f5f5;
+    border-radius: 8px;
+    background-color: #262626;
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+    background-color: #262626;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.tab {
+    margin: 0 10%;
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+.tab h3 {
+    color: #262626;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.2em;
+}
+
+.body-container {
+    background-color: #f5f5f5;
+    height: 1000px;
+    width: 100%;
+    margin-top: -1px;
+}
+
+button:hover {
+    cursor: pointer;
+}
