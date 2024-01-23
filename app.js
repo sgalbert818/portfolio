@@ -19,25 +19,45 @@ let projects = [
     },
 ]
 
-const outerContent = document.querySelector('.about-content');
-const innerContent = document.querySelector('.content');
-projectsBtn = document.getElementById('projects');
-aboutBtn = document.getElementById('about');
-socialsBtn = document.getElementById('socials');
+const projectsContent = document.querySelector('.projects-content');
+const aboutContent = document.querySelector('.about-content');
+const socialsContent = document.querySelector('.socials-content');
+const projectsBtn = document.getElementById('projects');
+const aboutBtn = document.getElementById('about');
+const socialsBtn = document.getElementById('socials');
 
-//window.addEventListener('DOMContentLoaded', function () {
-    //displayProjects(projects);
-//});
-
-projectsBtn.addEventListener('click', function () {
+window.addEventListener('DOMContentLoaded', function () {
+    projectsBtn.classList.add('tab-active');
     displayProjects(projects);
+});
+
+projectsBtn.addEventListener('click', function() {
+    displayProjects(projects);
+    projectsBtn.classList.add('tab-active');
+    aboutBtn.classList.remove('tab-active');
+    socialsBtn.classList.remove('tab-active');
+    aboutContent.style.display = 'none';
+    socialsContent.style.display = 'none';
+    projectsContent.style.display = 'flex';
 })
 
-aboutBtn.addEventListener('click', function () {
-    outerContent.innerHTML = '';
-    
+aboutBtn.addEventListener('click', function() {
+    projectsBtn.classList.remove('tab-active');
+    aboutBtn.classList.add('tab-active');
+    socialsBtn.classList.remove('tab-active');
+    projectsContent.style.display = 'none';
+    socialsContent.style.display = 'none';
+    aboutContent.style.display = 'flex';
 })
 
+socialsBtn.addEventListener('click', function() {
+    projectsBtn.classList.remove('tab-active');
+    aboutBtn.classList.remove('tab-active');
+    socialsBtn.classList.add('tab-active');
+    projectsContent.style.display = 'none';
+    aboutContent.style.display = 'none';
+    socialsContent.style.display = 'block';
+})
 
 function displayProjects(obj) {
     let display = obj.map(function (each) {
@@ -54,5 +74,5 @@ function displayProjects(obj) {
         `;
     })
     display = display.join('');
-    innerContent.innerHTML = display
+    projectsContent.innerHTML = display 
 }

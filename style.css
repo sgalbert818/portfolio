@@ -42,6 +42,12 @@ h4 {
     letter-spacing: 1px;
 }
 
+p {
+    font-family: 'Spectral', serif;
+    color: #262626;
+    letter-spacing: 1px;
+}
+
 header {
     min-height: 400px;
     width: 100%;
@@ -132,26 +138,27 @@ header {
     font-size: 1.2em;
 }
 
-.about-content {
+.main-block {
     height: auto;
     width: 100%;
     background-color: #f5f5f5;
-    padding: 50px 0;
+    padding: 30px 0 10px 0;
 }
 
-.content {
+.projects-content {
     display: flex;
     justify-content: center;
     align-items: top;
     flex-wrap: wrap;
+    height: auto;
 }
 
 
-.content h4 {
+.projects-content h4 {
     color: #262626;
 }
 
-.tab.active {
+.tab-active {
     background-color: #f5f5f5;
     color: #262626;
     height: 45px;
@@ -180,7 +187,7 @@ button:hover {
 }
 
 .project-description {
-    height: 100%;
+    height: auto;
 }
 
 .project-description h2 {
@@ -199,11 +206,40 @@ button:hover {
     padding: 0 20px 0 20px;
 }
 
-.about-me {
-    border: 1px solid red;
-    width: 100%;
+.about-content {
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.about-text {
+    width: 80%;
+    min-height: 500px;
     height: auto;
 }
+
+.about-text p {
+    padding: 30px 0;
+}
+
+.socials-content {
+    height: auto;
+    display: none;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials img {
+    height: 200px;
+    width: 200px;
+    margin: 60px 50px;
+}
+
+
 
 @media all and (min-width: 1200px) {
     .item {
