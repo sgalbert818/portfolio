@@ -151,8 +151,8 @@ header {
     align-items: top;
     flex-wrap: wrap;
     height: auto;
+    margin: 10px 0 50px 0;
 }
-
 
 .projects-content h4 {
     color: #262626;
@@ -172,7 +172,7 @@ button:hover {
 .item {
     min-height: 400px;
     width: 20%;
-    margin: 15px;
+    margin: 20px;
 }
 
 .show-img-container {
@@ -219,7 +219,7 @@ button:hover {
 }
 
 .about-text p {
-    padding: 30px 0;
+    padding: 30px 0 60px 0;
 }
 
 .socials-content {
@@ -231,6 +231,7 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .socials img {
