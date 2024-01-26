@@ -59,7 +59,7 @@ socialsBtn.addEventListener('click', function() {
     socialsBtn.classList.add('tab-active');
     projectsContent.style.display = 'none';
     aboutContent.style.display = 'none';
-    socialsContent.style.display = 'block';
+    socialsContent.style.display = 'flex';
 })
 
 function displayProjects(obj) {
