@@ -4,18 +4,21 @@ let projects = [
         title: 'Arcade Landing Page',
         description: 'The first site I created using vanilla JS, CSS, and HTML.',
         img: 'images/updown.png',
+        link: 'https://up-down-project.netlify.app'
     },
     {
         id: 2,
         title: 'Resort Selector',
         description: 'The second site I created using vanilla JS, CSS, and HTML. I practiced using APIs with this site.',
         img: 'images/resortselector.png',
+        link: 'https://resort-selector-project.netlify.app/'
     },
     {
-        id: 2,
-        title: 'Resort Selector',
-        description: 'The second site I created using vanilla JS, CSS, and HTML. I practiced using APIs with this site.',
-        img: 'images/resortselector.png',
+        id: 1,
+        title: 'Arcade Landing Page',
+        description: 'The first site I created using vanilla JS, CSS, and HTML.',
+        img: 'images/updown.png',
+        link: 'https://up-down-project.netlify.app'
     },
 ]
 
@@ -67,7 +70,7 @@ function displayProjects(obj) {
                 <img src=${each.img}>
             </div>
             <div class="project-description">
-                <h2>${each.title}</h2>
+                <h2><a href=${each.link}>${each.title}</a></h2>
                 <h4>${each.description}</h4>
             </div>
         </div>
