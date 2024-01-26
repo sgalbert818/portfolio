@@ -233,7 +233,6 @@ button:hover {
 }
 
 .socials {
-    border: 1px solid green;
     width: 100%;
     height: 100%;
     margin-bottom: 50px;
@@ -243,10 +242,9 @@ button:hover {
 }
 
 #github, #linkedin, #email {
-    border: 1px solid red;
     min-width: 200px;
     height: auto;
-    margin: 30px 3%;
+    margin: 30px 5%;
     text-align: center;
 }
 
@@ -311,7 +309,7 @@ button:hover {
     }
  }
 
- @media all and (max-width: 470px) {
+ @media all and (max-width: 510px) {
     #github, #linkedin, #email {
         min-width: 85%;
     }
