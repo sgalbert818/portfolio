@@ -1,7 +1,7 @@
 let projects = [
     {
         id: 1,
-        title: 'Arcade Landing Page',
+        title: 'Arcade Website',
         description: 'The first site I created using vanilla JS, CSS, and HTML.',
         img: 'images/updown.png',
         link: 'https://up-down-project.netlify.app'
@@ -70,7 +70,7 @@ function displayProjects(obj) {
                 <img src=${each.img}>
             </div>
             <div class="project-description">
-                <h2><a href=${each.link}>${each.title}</a></h2>
+                <h2><a href=${each.link} target="_blank">${each.title}</a></h2>
                 <h4>${each.description}</h4>
             </div>
         </div>
