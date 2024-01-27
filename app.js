@@ -2,23 +2,16 @@ let projects = [
     {
         id: 1,
         title: 'Arcade Website',
-        description: 'The first site I created using vanilla JS, CSS, and HTML.',
+        description: 'This site is a basic 5-page website for an arcade bar in Kansas City. I was inspired after navigating the arcade\'s real website, and subsequently challenged myself to build a more aesthetic and easily navigable site.',
         img: 'images/updown.png',
         link: 'https://up-down-project.netlify.app'
     },
     {
         id: 2,
         title: 'Resort Selector',
-        description: 'The second site I created using vanilla JS, CSS, and HTML. I practiced using APIs with this site.',
+        description: 'The resort selector takes in a user\'s address and returns a list of ski resorts, including corresponding weather conditions, snow reports, and current traffic. I created this project to familiarize myself with fetch requests and APIs.',
         img: 'images/resortselector.png',
         link: 'https://resort-selector-project.netlify.app/'
-    },
-    {
-        id: 1,
-        title: 'Arcade Landing Page',
-        description: 'The first site I created using vanilla JS, CSS, and HTML.',
-        img: 'images/updown.png',
-        link: 'https://up-down-project.netlify.app'
     },
 ]
 
