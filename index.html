@@ -75,18 +75,18 @@
         </div>
         <div class="socials-content">
             <div class="socials">
-                <form>
+                <form action="" method="POST">
                     <label for="name">Your Name:</label>
-                    <input type="text" id="name" name="name" placeholder="">
+                    <input type="text" id="name" name="name" placeholder="" required>
 
                     <label for="email">Your Email Address:</label>
-                    <input type="text" id="email" name="email" placeholder="">
+                    <input type="email" id="email" name="email" placeholder="" required>
 
                     <label for="subject">Subject Line:</label>
-                    <input type="text" id="subject" name="subject" placeholder="">
+                    <input type="text" id="subject" name="subject" placeholder="" required>
                 
                     <label for="message">Your Message:</label>
-                    <textarea id="message" name="message" placeholder="" style="height:200px"></textarea>
+                    <textarea id="message" name="message" placeholder="" required style="height:200px"></textarea>
                 
                     <input type="submit" id="submit" value="Submit">
                 
