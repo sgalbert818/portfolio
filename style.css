@@ -43,12 +43,14 @@ h3,
 h4 {
     text-transform: lowercase;
     font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
     color: #ffffff;
     letter-spacing: 1px;
 }
 
 p {
     font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
     color: #1d1d1d;
     letter-spacing: 1px;
 }
@@ -253,7 +255,7 @@ button:hover {
 form {
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    width: 60vw;
 }
 
 label, input, textarea {
@@ -282,16 +284,18 @@ input, textarea {
 
 #submit {
     width: 30%;
+    min-width: 100px;
     margin: 20px auto 5px auto;
     text-transform: lowercase;
     font-family: 'Quicksand', sans-serif;
     color: white;
     letter-spacing: 1px;
     background-color: #1d1d1d;
+    transition-duration: 0.2s;
 }
 
 #submit:hover {
-    background-color: 
+    background-color: #ff256e;
 }
 
 #pink {
@@ -384,6 +388,23 @@ footer {
     #resume-button {
         margin-bottom: 30px;
     }
+
+    .tab {
+        margin: 0 8%;
+        height: 40px;
+        width: 90px;
+        font-size: 0.8em;
+        letter-spacing: 1px;
+    }
+
+    .tab-active {
+        background-color: #ffffff;
+        color: #ff256e;
+        height: 45px;
+        margin-bottom: -3px;
+        border: 3px solid #ff256e;
+        border-bottom: white;
+    }
  }
 
  @media all and (max-width: 450px) {
@@ -448,14 +469,17 @@ footer {
         margin: 0 4%;
         height: 40px;
         width: 90px;
-        font-size: 1em;
+        font-size: 0.8em;
+        letter-spacing: 1px;
     }
 
     .tab-active {
         background-color: #ffffff;
-        color: #1d1d1d;
+        color: #ff256e;
         height: 45px;
-        margin-bottom: -5px;
+        margin-bottom: -3px;
+        border: 3px solid #ff256e;
+        border-bottom: white;
     }
  }
 
