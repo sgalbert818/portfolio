@@ -7,6 +7,8 @@
     <title>Document</title>
     <link href="style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;600&family=Oswald:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@700&display=swap" rel="stylesheet">    
 </head>
 
 <body>
@@ -19,10 +21,10 @@
         <div class="header-text">
             <div class="top">
                 <h1>Sarah Albert</h1>
-                <h3>Front End Web Developer</h3>
+                <h3>Front End <span id="pink">Web Developer</span></h3>
             </div>
             <div class="middle">
-                <h4>Denver, CO based Web Developer that creates web applications and responsive user interfaces.</h4>
+                <h4>Denver, CO based <span id="pink">Web Developer</span> that creates web <span id="pink">applications</span> and responsive user <span id="pink">interfaces.</span></h4>
             </div>
             <div class="bottom">
                 <button id="resume-button">
@@ -39,7 +41,7 @@
             About
         </button>
         <button class="tab" id="socials">
-            Socials
+            Contact
         </button>
     </div>
     <article class="main-block">
@@ -47,24 +49,23 @@
         </div>
         <div class="about-content">
             <div class="about-text">
-                <p>Hello!<br><br> My name is Sarah.
-                    I graduated with a degree in Neuroscience a few years ago from the University of Arizona and
-                    immediately began working in pediatric diabetes research.
-                    This is where I was first exposed to any sort of programming language in the form of MATLAB. Sadly,
+                <p>Hello!<br><br> My name is <span id="pink">Sarah.</span>
+                    I graduated with a degree in <span id="pink">Neuroscience</span> a few years ago from the University of Arizona and
+                    immediately began working in pediatric diabetes research. This is where I was first exposed to any sort of programming language in the form of MATLAB. Sadly,
                     the love story was short-lived as MATLAB and I didn't quite get along.
                     I stuck with research and rushed into a doctorate program in the Fall of 2022, where I *very*
-                    quickly realized I was unmotivated, uninspired, and unhappy.
+                    quickly realized I was <span id="pink">unmotivated, uninspired,</span> and <span id="pink">unhappy.</span>
                     I withdrew from my program less than a month later and began the daunting journey of figuring out
                     what to do with the rest of my life!
                     <br><br>
-                    Long story short, I picked up my life and moved to Denver where I began bartending, snowboarding,
+                    Long story short, I picked up my life and moved to <span id="pink">Denver</span> where I began bartending, snowboarding,
                     and (most importantly) teaching myself to code.
-                    I began with the basics and quickly became acquainted with Javascript, which overrode the bad blood
+                    I began with the basics and quickly became acquainted with <span id="pink">Javascript,</span> which overrode the bad blood
                     I had previously shared with coding (thanks MATLAB!), replacing it with curiosity and excitement.
-                    This is where I'm at now, learning and building as much as I can and enjoying every second of it!
+                    This is where I'm at now, <span id="pink">learning</span> and <span id="pink">building</span> as much as I can and enjoying every second of it!
                     I'm looking forward to continuing to challenge myself, building more complex projects, and
                     ultimately creating something that can serve a purpose in someone's everyday life.
-                    This site will be updaed with projects I'm currently working on, so if you're interested in my
+                    This site will be updated with projects I'm currently working on, so if you're interested in my
                     skills or want to chat, don't hesistate to shoot me an email.
                     <br><br>
                     Thanks for stopping by!
@@ -73,24 +74,48 @@
         </div>
         <div class="socials-content">
             <div class="socials">
-                <div id="linkedin">
-                    <a href="https://www.linkedin.com/in/sarah-albert-26b840188/">
-                        <img src="images/linkedin.png" class="inner-img">
-                    </a>
-                </div>
-                <div id="github">
-                    <a href="https://github.com/sgalbert818">
-                        <img src="images/github.png" class="inner-img">
-                    </a>
-                </div>
-                <div id="email">
-                    <a href="mailto:sgalbert818@yahoo.com">
-                        <img src="images/email.png" class="inner-img">
-                    </a>
-                </div>
+                <form>
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" placeholder="">
+
+                    <label for="email">Your Email Address:</label>
+                    <input type="text" id="email" name="email" placeholder="">
+
+                    <label for="subject">Subject Line:</label>
+                    <input type="text" id="subject" name="subject" placeholder="">
+                
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" placeholder="" style="height:200px"></textarea>
+                
+                    <input type="submit" id="submit" value="Submit">
+                
+                  </form>
+                
             </div>
         </div>
     </article>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-container">
+                <h5>Sarah Albert ©2024</h5>
+            </div>
+            <div class="footer-container">
+                <a href="www.github.com">
+                    <img src="images/github.png" class="footer-img">
+                </a>
+            </div>
+            <div class="footer-container">
+                <a href="www.linkedin.com">
+                    <img src="images/linkedin.png" class="footer-img">
+                </a>
+            </div>
+            <div class="footer-container">
+                <a href="www.myemail.com">
+                    <img src="images/email.png" class="footer-img">
+                </a>
+            </div>
+        </div>
+    </footer>
 
     <script src="app.js"></script>
 </body>
