@@ -13,6 +13,13 @@ let projects = [
         img: 'images/resortselector.png',
         link: 'https://resort-selector-project.netlify.app/'
     },
+    {
+        id: 3,
+        title: 'Resource Radar',
+        description: 'This project uses the google maps API in conjunction with interactive markers, allowing users to select expandable icons to view resources or click on the map to add their own.',
+        img: 'images/resourceradar.png',
+        link: 'https://resource-radar-project.netlify.app/'
+    },
 ]
 
 const projectsContent = document.querySelector('.projects-content');
