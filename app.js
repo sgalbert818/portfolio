@@ -34,32 +34,26 @@ window.addEventListener('DOMContentLoaded', function () {
     displayProjects(projects);
 });
 
+function tabPress(p1, p2, p3, p4, p5, p6) {
+    p1.classList.add('tab-active');
+    p2.classList.remove('tab-active');
+    p3.classList.remove('tab-active');
+    p4.style.display = 'flex';
+    p5.style.display = 'none';
+    p6.style.display = 'none';
+}
+
 projectsBtn.addEventListener('click', function() {
     displayProjects(projects);
-    projectsBtn.classList.add('tab-active');
-    aboutBtn.classList.remove('tab-active');
-    socialsBtn.classList.remove('tab-active');
-    aboutContent.style.display = 'none';
-    socialsContent.style.display = 'none';
-    projectsContent.style.display = 'flex';
+    tabPress(projectsBtn, aboutBtn, socialsBtn, projectsContent, aboutContent, socialsContent);
 })
 
 aboutBtn.addEventListener('click', function() {
-    projectsBtn.classList.remove('tab-active');
-    aboutBtn.classList.add('tab-active');
-    socialsBtn.classList.remove('tab-active');
-    projectsContent.style.display = 'none';
-    socialsContent.style.display = 'none';
-    aboutContent.style.display = 'flex';
+    tabPress(aboutBtn, projectsBtn, socialsBtn, aboutContent, socialsContent, projectsContent);
 })
 
 socialsBtn.addEventListener('click', function() {
-    projectsBtn.classList.remove('tab-active');
-    aboutBtn.classList.remove('tab-active');
-    socialsBtn.classList.add('tab-active');
-    projectsContent.style.display = 'none';
-    aboutContent.style.display = 'none';
-    socialsContent.style.display = 'flex';
+    tabPress(socialsBtn, projectsBtn, aboutBtn, socialsContent, projectsContent, aboutContent);
 })
 
 function displayProjects(obj) {
