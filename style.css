@@ -237,7 +237,7 @@ button:hover {
 
 .about-text {
     width: 80%;
-    min-height: 500px;
+    min-height: 420px;
     height: auto;
     text-transform: lowercase;
 }
