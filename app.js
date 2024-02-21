@@ -20,6 +20,13 @@ let projects = [
         img: 'images/resourceradar.png',
         link: 'https://resource-radar-project.netlify.app/'
     },
+    {
+        id: 4,
+        title: 'Connections',
+        description: 'I recreated one of my all-time favorite games, NYT connections. This project gave me TONS of practice with arrays, strings, loops, and built-in JS functions.',
+        img: 'images/connections.png',
+        link: 'https://conncetions-project.netlify.app/'
+    },
 ]
 
 const projectsContent = document.querySelector('.projects-content');
