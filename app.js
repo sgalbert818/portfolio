@@ -25,7 +25,7 @@ let projects = [
         title: 'Connections',
         description: 'I recreated one of my all-time favorite games, NYT connections. This project gave me TONS of practice with arrays, strings, loops, and built-in JS functions.',
         img: 'images/connections.png',
-        link: 'https://conncetions-project.netlify.app/'
+        link: 'https://connections-project.netlify.app/'
     },
 ]
 

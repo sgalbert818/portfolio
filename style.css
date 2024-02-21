@@ -165,12 +165,13 @@ header {
 }
 
 .projects-content {
+    width: 95%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: top;
     flex-wrap: wrap;
     height: auto;
-    margin: 10px 0 50px 0;
+    margin: 10px auto 50px auto;
 }
 
 .projects-content h4 {
@@ -192,8 +193,8 @@ button:hover {
 
 .item {
     min-height: 350px;
+    margin: 10px 0 10px 15px;
     width: 20%;
-    margin: 5px 15px;
 }
 
 .show-img-container {
@@ -345,13 +346,13 @@ footer {
 
 @media all and (min-width: 1100px) {
     .item {
-        width: 28%;
+        width: 31.5%;
     }
  }
 
 @media all and (min-width: 800px) and (max-width: 1100px) {
     .item {
-        width: 42%;
+        width: 47.5%;
     }
 
     .top {
@@ -365,7 +366,7 @@ footer {
 
 @media all and (min-width: 450px) and (max-width: 800px) {
     .item {
-        width: 90%;
+        width: 95%;
     }
 
     .top {
@@ -418,7 +419,7 @@ footer {
  @media all and (max-width: 450px) {
     
     .item {
-        width: 90%;
+        width: 95%;
         min-height: 300px;
     }
 
