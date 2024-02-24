@@ -1,29 +1,32 @@
+/*
+*/
+
 let projects = [
     {
         id: 1,
         title: 'Arcade Website',
-        description: 'This site is a basic 5-page website for an arcade bar in Kansas City. I was inspired after navigating the arcade\'s real website, and subsequently challenged myself to build a more aesthetic and easily navigable site.',
+        description: `The arcade website is a dynamic and visually appealing site designed to provide an immersive and engaging experience for visitors. Inspired by shortcomings of the arcade's existing website, this project aims to enhance user engagement, improve accessibility, and showcase the arcade's offerings in a modern and attractive manner.`,
         img: 'images/updown.png',
         link: 'https://up-down-project.netlify.app'
     },
     {
         id: 2,
         title: 'Resort Selector',
-        description: 'The resort selector takes in a user\'s address and returns a list of ski resorts, including corresponding weather conditions, snow reports, and current traffic. I created this project to familiarize myself with fetch requests and APIs.',
+        description: `The Resort Selector project is an innovative web application designed to provide personalized recommendations to users based on their location and preferences. Leveraging APIs to gather real-time data on traffic, weather, and snowfall, this project offers users valuable insights and recommendations to ensure an unforgettable skiing experience.`,
         img: 'images/resortselector.png',
         link: 'https://resort-selector-project.netlify.app/'
     },
     {
         id: 3,
         title: 'Resource Radar',
-        description: 'This project uses the google maps API in conjunction with interactive markers, allowing users to select expandable icons to view resources or click on the map to add their own.',
+        description: `The Resource Radar is a comprehensive map interface that displays various resources available on campus. This project empowers users to easily navigate and discover essential resources within their college campus while also enabling them to contribute their own additions to the map, fostering a collaborative and interactive community.`,
         img: 'images/resourceradar.png',
         link: 'https://resource-radar-project.netlify.app/'
     },
     {
         id: 4,
         title: 'Connections',
-        description: 'I recreated one of my all-time favorite games, NYT connections. This project gave me TONS of practice with arrays, strings, loops, and built-in JS functions.',
+        description: `Connections is an intellectually stimulating puzzle game inspired by the popular New York Times Connections game. With its intuitive user interface, captivating gameplay mechanics, and diverse range of puzzles, Connections offers players an immersive and educational gaming experience that encourages critical thinking, problem-solving, and creativity.`,
         img: 'images/connections.png',
         link: 'https://connections-project.netlify.app/'
     },

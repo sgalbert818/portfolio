@@ -220,9 +220,9 @@ button:hover {
 }
 
 .project-description h4 {
-    line-height: 15px;
-    margin-top: -5px;
-    letter-spacing: 2px;
+    line-height: 14px;
+    margin-top: -10px;
+    letter-spacing: 1px;
 }
 
 .project-description h2,
