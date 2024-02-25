@@ -343,6 +343,10 @@ footer {
     width: 30px;
 }
 
+.hidden {
+    display: none;
+}
+
 
 @media all and (min-width: 1100px) {
     .item {

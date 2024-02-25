@@ -82,7 +82,10 @@
         </div>
         <div class="socials-content">
             <div class="socials">
-                <form name="contact" method="POST" data-netlify="true">
+                <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+
+                    <label class="hidden" for="bot-field">Don't fill this out if you're human:</label>
+                    <input class="hidden" name="bot-field">
 
                     <label for="name">Your Name:</label>
                     <input type="text" id="name" name="name" placeholder="" required>
