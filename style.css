@@ -1,3 +1,7 @@
+:root {
+    --accent: #ff3c80
+}
+
 * {
     box-sizing: border-box;
 }
@@ -151,7 +155,7 @@ header {
     width: 100%;
     background-color: #ffffff;
     padding: 30px 0 10px 0;
-    border-top: 3px solid #ff356b;
+    border-top: 3px solid var(--accent);
 }
 
 #hide {
@@ -180,10 +184,10 @@ header {
 
 .tab-active {
     background-color: #ffffff;
-    color: #ff356b;
+    color: var(--accent);
     height: 45px;
     margin-bottom: -5px;
-    border: 3px solid #ff356b;
+    border: 3px solid var(--accent);
     border-bottom: none;
 }
 
@@ -304,11 +308,11 @@ input, textarea {
 }
 
 #submit:hover {
-    background-color: #ff356b;
+    background-color: var(--accent);
 }
 
 #pink {
-    color: #ff356b;
+    color: var(--accent);
 }
 
 footer {
@@ -317,7 +321,7 @@ footer {
     background-color: #1d1d1d;
     font-family: 'quicksand', sans-serif;
     text-transform: lowercase;
-    border-top: 3px solid #ff356b;
+    border-top: 3px solid var(--accent);
 }
 
 .footer-content {
@@ -412,10 +416,10 @@ footer {
 
     .tab-active {
         background-color: #ffffff;
-        color: #ff356b;
+        color: var(--accent);
         height: 45px;
         margin-bottom: -3px;
-        border: 3px solid #ff356b;
+        border: 3px solid var(--accent);
         border-bottom: white;
     }
  }
@@ -488,10 +492,10 @@ footer {
 
     .tab-active {
         background-color: #ffffff;
-        color: #ff356b;
+        color: var(--accent);
         height: 45px;
         margin-bottom: -4px;
-        border: 3px solid #ff356b;
+        border: 3px solid var(--accent);
         border-bottom: white;
     }
  }

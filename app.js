@@ -5,28 +5,28 @@ let projects = [
     {
         id: 1,
         title: 'Arcade Website',
-        description: `The arcade website is a dynamic and visually appealing site designed to provide an immersive and engaging experience for visitors. Inspired by shortcomings of the arcade's existing website, this project aims to enhance user engagement, improve accessibility, and showcase the arcade's offerings in a modern and attractive manner.`,
+        description: `The arcade website is a dynamic and visually appealing site designed to provide an engaging experience for visitors. Inspired by shortcomings of the arcade's existing website, this project aims to enhance engagement and showcase the arcade's offerings in a modern and attractive manner.`,
         img: 'images/updown.png',
         link: 'https://up-down-project.netlify.app'
     },
     {
         id: 2,
         title: 'Resort Selector',
-        description: `The Resort Selector project is an innovative web application designed to provide personalized recommendations to users based on their location and preferences. Leveraging APIs to gather real-time data on traffic, weather, and snowfall, this project offers users valuable insights and recommendations to ensure an unforgettable skiing experience.`,
+        description: `The Resort Selector project is an innovative web application designed to provide personalized recommendations to users based on their location and preferences. Leveraging APIs to gather real-time data on traffic, weather, and snowfall, this project offers users recommendations to ensure the optimal skiing experience.`,
         img: 'images/resortselector.png',
         link: 'https://resort-selector-project.netlify.app/'
     },
     {
         id: 3,
         title: 'Resource Radar',
-        description: `The Resource Radar is a comprehensive map interface that displays various resources available on campus. This project empowers users to easily navigate and discover essential resources within their college campus while also enabling them to contribute their own additions to the map, fostering a collaborative and interactive community.`,
+        description: `The Resource Radar is a comprehensive map interface that displays various resources available on campus. This project empowers users to discover essential resources within their college campus while also enabling them to contribute their own additions to the map, fostering an interactive community.`,
         img: 'images/resourceradar.png',
         link: 'https://resource-radar-project.netlify.app/'
     },
     {
         id: 4,
         title: 'Connections',
-        description: `Connections is an intellectually stimulating puzzle game inspired by the popular New York Times Connections game. With its intuitive user interface, captivating gameplay mechanics, and diverse range of puzzles, Connections offers players an immersive and educational gaming experience that encourages critical thinking, problem-solving, and creativity.`,
+        description: `Connections is an intellectually stimulating puzzle game inspired by the popular New York Times Connections game. With its intuitive user interface, Connections offers players an immersive and educational gaming experience that encourages critical thinking, problem-solving, and creativity.`,
         img: 'images/connections.png',
         link: 'https://connections-project.netlify.app/'
     },
