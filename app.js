@@ -10,6 +10,13 @@ let projects = [
         link: 'https://up-down-project.netlify.app'
     },
     {
+        id: 5,
+        title: 'Finance Tracker',
+        description: `Bet you've never seen one of these before! The finance tracker is an intuitive app that tracks expenses and compares them to target budgets set by the user. It then takes the user's spending inputs and represents the data visually, facilitating seamless expense tracking.`,
+        img: 'images/financetracker.png',
+        link: 'https://finance-tracker-project.netlify.app/'
+    },
+    {
         id: 2,
         title: 'Resort Selector',
         description: `The Resort Selector project is an innovative web application designed to provide personalized recommendations to users based on their location and preferences. Leveraging APIs to gather real-time data on traffic, weather, and snowfall, this project offers users recommendations to ensure the optimal skiing experience.`,
