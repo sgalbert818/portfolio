@@ -3,18 +3,11 @@
 
 let projects = [
     {
-        id: 1,
-        title: 'Arcade Website',
-        description: `The arcade website is a dynamic and visually appealing site designed to provide an engaging experience for visitors. Inspired by shortcomings of the arcade's existing website, this project aims to enhance engagement and showcase the arcade's offerings in a modern and attractive manner.`,
-        img: 'images/updown.png',
-        link: 'https://up-down-project.netlify.app'
-    },
-    {
-        id: 5,
-        title: 'Finance Tracker',
-        description: `Bet you've never seen one of these before! The finance tracker is an intuitive app that tracks expenses and compares them to target budgets set by the user. It then takes the user's spending inputs and represents the data visually, facilitating seamless expense tracking.`,
-        img: 'images/financetracker.png',
-        link: 'https://finance-tracker-project.netlify.app/'
+        id: 4,
+        title: 'Connections',
+        description: `Connections is an intellectually stimulating puzzle game inspired by the popular New York Times Connections game. With its intuitive user interface, Connections offers players an immersive and educational gaming experience that encourages critical thinking, problem-solving, and creativity.`,
+        img: 'images/connections.png',
+        link: 'https://connections-project.netlify.app/'
     },
     {
         id: 2,
@@ -24,18 +17,25 @@ let projects = [
         link: 'https://resort-selector-project.netlify.app/'
     },
     {
+        id: 5,
+        title: 'Finance Tracker',
+        description: `Bet you've never seen one of these before! The finance tracker is an intuitive app that tracks expenses and compares them to target budgets set by the user. It then takes the user's spending inputs and represents the data visually, facilitating seamless expense tracking.`,
+        img: 'images/financetracker.png',
+        link: 'https://finance-tracker-project.netlify.app/'
+    },
+    {
+        id: 1,
+        title: 'Arcade Website',
+        description: `The arcade website is a dynamic and visually appealing site designed to provide an engaging experience for visitors. Inspired by shortcomings of the arcade's existing website, this project aims to enhance engagement and showcase the arcade's offerings in a modern and attractive manner.`,
+        img: 'images/updown.png',
+        link: 'https://up-down-project.netlify.app'
+    },
+    {
         id: 3,
         title: 'Resource Radar',
         description: `The Resource Radar is a comprehensive map interface that displays various resources available on campus. This project empowers users to discover essential resources within their college campus while also enabling them to contribute their own additions to the map, fostering an interactive community.`,
         img: 'images/resourceradar.png',
         link: 'https://resource-radar-project.netlify.app/'
-    },
-    {
-        id: 4,
-        title: 'Connections',
-        description: `Connections is an intellectually stimulating puzzle game inspired by the popular New York Times Connections game. With its intuitive user interface, Connections offers players an immersive and educational gaming experience that encourages critical thinking, problem-solving, and creativity.`,
-        img: 'images/connections.png',
-        link: 'https://connections-project.netlify.app/'
     },
 ]
 
@@ -76,7 +76,7 @@ socialsBtn.addEventListener('click', function() {
 function displayProjects(obj) {
     let display = obj.map(function (each) {
         return `
-        <div class="item">
+        <div class="item fade-in">
             <div class="show-img-container">
                 <img src=${each.img}>
             </div>
@@ -89,4 +89,20 @@ function displayProjects(obj) {
     })
     display = display.join('');
     projectsContent.innerHTML = display 
+}
+
+// fade transitions
+
+const elementsToFadeInUpOnScroll = document.querySelectorAll(".fade-in");
+
+if (elementsToFadeInUpOnScroll) {
+  window.addEventListener("scroll", function(event) {
+    elementsToFadeInUpOnScroll.forEach(function(element) {
+      if (window.scrollY >= (element.offsetTop - window.innerHeight)) {
+        element.classList.add("fade-in");
+      } else {
+        element.classList.remove("fade-in");
+      }
+    });
+  });
 }
