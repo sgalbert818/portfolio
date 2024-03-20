@@ -17,13 +17,6 @@ let projects = [
         link: 'https://resort-selector-project.netlify.app/'
     },
     {
-        id: 5,
-        title: 'Finance Tracker',
-        description: `Bet you've never seen one of these before! The finance tracker is an intuitive app that tracks expenses and compares them to target budgets set by the user. It then takes the user's spending inputs and represents the data visually, facilitating seamless expense tracking.`,
-        img: 'images/financetracker.png',
-        link: 'https://finance-tracker-project.netlify.app/'
-    },
-    {
         id: 1,
         title: 'Arcade Website',
         description: `The arcade website is a dynamic and visually appealing site designed to provide an engaging experience for visitors. Inspired by shortcomings of the arcade's existing website, this project aims to enhance engagement and showcase the arcade's offerings in a modern and attractive manner.`,
@@ -36,6 +29,13 @@ let projects = [
         description: `The Resource Radar is a comprehensive map interface that displays various resources available on campus. This project empowers users to discover essential resources within their college campus while also enabling them to contribute their own additions to the map, fostering an interactive community.`,
         img: 'images/resourceradar.png',
         link: 'https://resource-radar-project.netlify.app/'
+    },
+    {
+        id: 5,
+        title: 'Finance Tracker',
+        description: `Bet you've never seen one of these before! The finance tracker is an intuitive app that tracks expenses and compares them to target budgets set by the user. It then takes the user's spending inputs and represents the data visually, facilitating seamless expense tracking.`,
+        img: 'images/financetracker.png',
+        link: 'https://finance-tracker-project.netlify.app/'
     },
 ]
 
