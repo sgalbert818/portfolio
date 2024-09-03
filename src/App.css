@@ -1,38 +1,313 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.intro {
+    height: 100vh;
+    width: 100%;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(24, 24, 24);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.intro-text {
+    width: 80%;
+    text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.intro-text h1 {
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 5vw;
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.App-link {
-  color: #61dafb;
+.accent {
+    color: rgb(119, 130, 255);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar {
+    position: sticky;
+    height: 50px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: rgb(40, 40, 40);
+    padding: 0 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    z-index: 5;
 }
+
+.nav-options button {
+    color: white;
+    background-color: transparent;
+    border: none;
+    text-transform: uppercase;
+    margin: 0 8px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-size: 0.95em;
+    transition: 0.2s;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.nav-options button:hover {
+    color: rgb(119, 130, 255);
+}
+
+.about {
+    width: 100%;
+    height: auto;
+    background-color: rgb(24, 24, 24);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 80px 0 80px;
+}
+
+.about-header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100px;
+}
+
+.about-header h2 {
+    color: white;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    letter-spacing: 6px;
+    font-weight: 400;
+    font-size: 3em;
+    position: relative;
+    top: 30px;
+    left: -10px;
+    z-index: 1;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.accent-box {
+    height: 25px;
+    width: 140px;
+    background-color: rgb(119, 130, 255);
+    position: relative;
+    left: 16px;
+    z-index: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.about-text {
+    margin-top: 120px;
+}
+
+.about-text p {
+    color: white;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 25px;
+    max-width: 800px;
+}
+
+.skills {
+    margin-top: 60px;
+}
+
+.fa {
+    font-size: 3em;
+    margin: 20px 20px 3.5px 20px;
+    transition: 0.2s;
+    color: white;
+}
+
+.fa-img {
+    margin: 20px 20px 0 20px;
+    transition: 0.2s;
+    color: white;
+    height: auto;
+    width: 43px;
+}
+
+.fa:hover, .fa-img:hover {
+    transform: scale(1.1);
+}
+
+.projects {
+    width: 100%;
+    height: auto;
+    background-color: rgb(24, 24, 24);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0 120px 0;
+}
+
+.projects-list {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 100px;
+}
+
+.project {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.p-last {
+    margin-bottom: 0;
+}
+
+.blue-background {
+    background-color: rgb(119, 130, 255);
+    height: auto;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    transition: 0.2s;
+}
+
+.b-switch {
+    justify-content: flex-end;
+}
+
+.blue-background:hover {
+    transform: scale(1.05);
+}
+
+.project-img {
+    width: 85%;
+    height: auto;
+    margin: 80px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.project-text {
+    height: auto;
+    width: 35%;
+    text-align: left;
+    position: relative;
+    top: 0;
+    right: 5%;
+    z-index: 2;
+}
+
+.pt-switch {
+    top: 0;
+    left: 7%;
+}
+
+.project-text h2 {
+    color: white;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 2em;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.project-text h4 {
+    color: white;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-size: 1.2em;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 40px;
+}
+
+.project-text button {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 1em;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    padding: 8px 12px;
+    margin-bottom: 20px;
+    margin: 0 40px 40px 0;
+    border: none;
+    border-bottom: 3px solid rgb(194, 255, 119);
+}
+
+.buttonfx {
+    color: white;
+    background: transparent;
+    border: none;
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    /* remove underline if using A instead of BUTTON tag */
+    overflow: hidden;
+    transition: all .2s;
+}
+
+.buttonfx:before,
+.buttonfx:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    background: rgb(194, 255, 119);
+    z-index: -1;
+    transform: translate3D(0, 100%, 0);
+    transition: all .5s;
+}
+
+.buttonfx:before {
+    background: transparent;
+    z-index: -2;
+    transform: translate3D(0, 0, 0);
+}
+
+.buttonfx:hover {
+    color: black;
+}
+
+.buttonfx:hover:after {
+    transform: translate3D(0, 0, 0);
+    transition: all .5s;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(40, 40, 40);
+    box-shadow: 0 -5px 10px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons .fa {
+    font-size: 2em;
+    margin: 10px;
+}
+

@@ -1,25 +1,38 @@
-import logo from './logo.svg';
 import './App.css';
+import Intro from "./components/Intro"
+import About from "./components/About"
+import Projects from "./components/Projects"
+import Footer from "./components/Footer"
+import { Link, Element } from "react-scroll"
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div>
+            <Element name="intro">
+                <Intro></Intro>
+            </Element>
+            <nav className="navbar">
+                <div className="nav-options">
+                    <Link to="intro" smooth={true} duration={500}>
+                        <button>Home</button>
+                    </Link>
+                    <Link to="about" smooth={true} duration={500}>
+                        <button>About</button>
+                    </Link>
+                    <Link to="projects" smooth={true} duration={500}>
+                        <button>Projects</button>
+                    </Link>
+                </div>
+            </nav>
+            <Element name="about">
+                <About></About>
+            </Element>
+            <Element name="projects">
+                <Projects></Projects>
+            </Element>
+            <Footer></Footer>
+        </div>
+    )
 }
 
 export default App;
