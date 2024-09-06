@@ -9,10 +9,11 @@ export default function Intro() {
             <div className="intro-text">
                 <h1>Hello, I'm <span className="accent">Sarah</span>.<br></br><Typewriter
                     options={{
-                        strings: [`I'm a front-end software engineer`, `I'm a web developer`, `I'm an aspiring pro snowboarder`],
+                        strings: [`I'm a software engineer`, `I'm a web developer`, `I'm an aspiring pro snowboarder`],
                         autoStart: true,
                         loop: true,
-                      }}
+                        delay: 75,
+                    }}
                 /></h1>
             </div>
         </div>
