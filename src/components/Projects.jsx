@@ -17,10 +17,10 @@ export default function Projects() {
                         <h4>A MERN stack social calendar app with user authentication through JSON web tokens.</h4>
                         <h4>HTML, CSS, JavaScript, React, Node.js, Express, MongoDB</h4>
                         <a href="https://sgalbert818-sync-social.netlify.app/" target="_blank" rel="noreferrer">
-                            <button class="buttonfx slideleft">Live App</button>
+                            <button className="buttonfx slideleft">Live App</button>
                         </a>
                         <a href="https://github.com/sgalbert818/sync-social" target="_blank" rel="noreferrer">
-                            <button class="buttonfx slideleft">Learn More</button>
+                            <button className="buttonfx slideleft">Learn More</button>
                         </a> 
                     </div>
                     <div className="blue-background b-switch">
@@ -36,10 +36,10 @@ export default function Projects() {
                         <h4>All of your favorite New York Times Games built from scratch using React.</h4>
                         <h4>HTML, CSS, JavaScript, React</h4>
                         <a href="https://react-nytimes-games.netlify.app/" target="_blank" rel="noreferrer">
-                            <button class="buttonfx slideleft">Live App</button>
+                            <button className="buttonfx slideleft">Live App</button>
                         </a>
                         <a href="https://github.com/sgalbert818/react-nytimes-games" target="_blank" rel="noreferrer">
-                            <button class="buttonfx slideleft">Learn More</button>
+                            <button className="buttonfx slideleft">Learn More</button>
                         </a>                    </div>
                 </div>
                 <div className="project p-last">
@@ -48,10 +48,10 @@ export default function Projects() {
                         <h4>A simple web app built with vanilla JavaScript, harnessing the power of APIs and external tools.</h4>
                         <h4>HTML, CSS, JavaScript</h4>
                         <a href="https://resort-selector-project.netlify.app/" target="_blank" rel="noreferrer">
-                            <button class="buttonfx slideleft">Live App</button>
+                            <button className="buttonfx slideleft">Live App</button>
                         </a>
                         <a href="https://github.com/sgalbert818/resort-selector" target="_blank" rel="noreferrer">
-                            <button class="buttonfx slideleft">Learn More</button>
+                            <button className="buttonfx slideleft">Learn More</button>
                         </a> 
                     </div>
                     <div className="blue-background b-switch">

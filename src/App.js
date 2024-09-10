@@ -14,13 +14,13 @@ function App() {
             <nav className="navbar">
                 <div className="nav-options">
                     <Link to="intro" smooth={true} duration={500}>
-                        <button>Home</button>
+                        <button className="nav-btn">Home</button>
                     </Link>
                     <Link to="about" smooth={true} duration={500}>
-                        <button>About</button>
+                        <button className="nav-btn">About</button>
                     </Link>
                     <Link to="projects" smooth={true} duration={500}>
-                        <button>Projects</button>
+                        <button className="nav-btn">Projects</button>
                     </Link>
                 </div>
             </nav>

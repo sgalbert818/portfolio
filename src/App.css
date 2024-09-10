@@ -311,3 +311,22 @@ footer {
     margin: 10px;
 }
 
+@media screen and (max-width: 400px) {
+    .navbar {
+        padding: 0 15px;
+        justify-content: center;
+    }
+
+    .nav-options button {
+        font-size: 0.75em;
+        margin: 0 2px;
+    }
+
+    .project-text {
+        font-size: 0.75em;
+    }
+
+    .about-header h2 {
+        font-size: 1.8em;
+    }
+}
