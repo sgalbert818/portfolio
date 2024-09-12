@@ -47,7 +47,6 @@ export default function About() {
                 <FontAwesomeIcon icon={faReact} className="fa" style={{ color: '#5ED4F4' }} />
                 <FontAwesomeIcon icon={faSass} className="fa" style={{ color: '#FF469B' }} />
                 <FontAwesomeIcon icon={faNodeJs} className="fa" style={{ color: '#509941' }} />
-                <FontAwesomeIcon icon={faPython} className="fa" style={{ color: '#F4C236' }} />
             </div>
         </div>
     )
