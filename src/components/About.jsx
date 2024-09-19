@@ -6,6 +6,7 @@ import { faJs } from '@fortawesome/free-brands-svg-icons';
 import { faReact } from '@fortawesome/free-brands-svg-icons';
 import { faNodeJs } from '@fortawesome/free-brands-svg-icons';
 import { faSass } from '@fortawesome/free-brands-svg-icons';
+import { faAws } from '@fortawesome/free-brands-svg-icons';
 
 export default function About() {
     return (
@@ -46,6 +47,7 @@ export default function About() {
                 <FontAwesomeIcon icon={faReact} className="fa" style={{ color: '#5ED4F4' }} />
                 <FontAwesomeIcon icon={faSass} className="fa" style={{ color: '#FF469B' }} />
                 <FontAwesomeIcon icon={faNodeJs} className="fa" style={{ color: '#509941' }} />
+                <FontAwesomeIcon icon={faAws} className="fa" style={{ color: '#F79D1B' }} />
             </div>
         </div>
     )
