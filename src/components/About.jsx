@@ -6,7 +6,6 @@ import { faJs } from '@fortawesome/free-brands-svg-icons';
 import { faReact } from '@fortawesome/free-brands-svg-icons';
 import { faNodeJs } from '@fortawesome/free-brands-svg-icons';
 import { faSass } from '@fortawesome/free-brands-svg-icons';
-import { faPython } from '@fortawesome/free-brands-svg-icons';
 
 export default function About() {
     return (

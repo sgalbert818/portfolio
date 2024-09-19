@@ -1,7 +1,7 @@
 import React from "react"
 import nytimes from "../images/nytimes.png"
 import resortselector from "../images/resort-selector.png"
-import syncsocial from "../images/sync-social.png"
+import plantpal from "../images/plantpal.png"
 
 export default function Projects() {
     return (
@@ -13,18 +13,18 @@ export default function Projects() {
             <div className="projects-list">
                 <div className="project">
                     <div className="project-text pt-switch">
-                        <h2>Sync Social</h2>
-                        <h4>A MERN stack social calendar app with user authentication through JSON web tokens.</h4>
-                        <h4>HTML, CSS, JavaScript, React, Node.js, Express, MongoDB</h4>
-                        <a href="https://sgalbert818-sync-social.netlify.app/" target="_blank" rel="noreferrer">
+                        <h2>Plant Pal</h2>
+                        <h4>A serverless social application with automated SMS reminders.</h4>
+                        <h4>HTML, CSS, JavaScript, React, Node.js, AWS (Amplify, Cognito, Lambda, API Gateway, DynamoDB)</h4>
+                        <a href="https://main.d1r8tr0d72jpo5.amplifyapp.com/" target="_blank" rel="noreferrer">
                             <button className="buttonfx slideleft">Live App</button>
                         </a>
-                        <a href="https://github.com/sgalbert818/sync-social" target="_blank" rel="noreferrer">
+                        <a href="https://github.com/sgalbert818/plant-pal" target="_blank" rel="noreferrer">
                             <button className="buttonfx slideleft">Learn More</button>
                         </a> 
                     </div>
                     <div className="blue-background b-switch">
-                        <img className="project-img" src={syncsocial} alt="Sync Social Calendar application"></img>
+                        <img className="project-img" src={plantpal} alt="Plant Pal application"></img>
                     </div>
                 </div>
                 <div className="project">
