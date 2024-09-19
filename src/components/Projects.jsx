@@ -16,6 +16,7 @@ export default function Projects() {
                         <h2>Plant Pal</h2>
                         <h4>A serverless social application with automated SMS reminders.</h4>
                         <h4>HTML, CSS, JavaScript, React, Node.js, AWS (Amplify, Cognito, Lambda, API Gateway, DynamoDB)</h4>
+                        <h4>Demo Login for Live App: lafopin399@marchub.com, Testing123!</h4>
                         <a href="https://main.d1r8tr0d72jpo5.amplifyapp.com/" target="_blank" rel="noreferrer">
                             <button className="buttonfx slideleft">Live App</button>
                         </a>
