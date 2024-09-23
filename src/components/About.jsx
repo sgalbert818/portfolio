@@ -27,7 +27,7 @@ export default function About() {
                     <br></br>
                     As a dedicated full-stack developer, I specialize in
                     crafting dynamic and efficient web applications using JavaScript
-                    and React on the frontend and Python or Node.js on the backend. 
+                    and React on the frontend and AWS/Node.js on the backend. 
                     My passion lies in writing clean code that drives interactive 
                     user experiences. With a solid foundation in modern web technologies, 
                     I excel at solving complex challenges and building intuitive 
