@@ -1,7 +1,7 @@
 import React from "react"
 import nytimes from "../images/nytimes.png"
 import resortselector from "../images/resort-selector.png"
-import plantpal from "../images/plantpal.png"
+import pricetracker from "../images/price-tracker.png"
 
 export default function Projects() {
     return (
@@ -13,19 +13,19 @@ export default function Projects() {
             <div className="projects-list">
                 <div className="project">
                     <div className="project-text pt-switch">
-                        <h2>Plant Pal</h2>
-                        <h4>A serverless social application with automated SMS reminders.</h4>
-                        <h4>HTML, CSS, JavaScript, React, Node.js, AWS (Amplify, Cognito, Lambda, API Gateway, DynamoDB)</h4>
-                        <h4>Demo Login for Live App: lafopin399@marchub.com, Testing123!</h4>
-                        <a href="https://main.d1r8tr0d72jpo5.amplifyapp.com/" target="_blank" rel="noreferrer">
+                        <h2>Price Tracker</h2>
+                        <h4>A serverless web scraper application.</h4>
+                        <h4>Front End: HTML, CSS, JavaScript, React</h4>
+                        <h4>Back End: Flask (Python), Selenium, Docker, AWS (DynamoDB, Lambda, EC2)</h4>
+                        <a href="https://main.dsrqd59wkn2z0.amplifyapp.com//" target="_blank" rel="noreferrer">
                             <button className="buttonfx slideleft">Live App</button>
                         </a>
-                        <a href="https://github.com/sgalbert818/plant-pal" target="_blank" rel="noreferrer">
+                        <a href="https://github.com/sgalbert818/price-tracker" target="_blank" rel="noreferrer">
                             <button className="buttonfx slideleft">Learn More</button>
                         </a> 
                     </div>
                     <div className="blue-background b-switch">
-                        <img className="project-img" src={plantpal} alt="Plant Pal application"></img>
+                        <img className="project-img" src={pricetracker} alt="Price Tracker application"></img>
                     </div>
                 </div>
                 <div className="project">

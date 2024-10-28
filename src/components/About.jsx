@@ -5,8 +5,8 @@ import { faCss3Alt } from '@fortawesome/free-brands-svg-icons';
 import { faJs } from '@fortawesome/free-brands-svg-icons';
 import { faReact } from '@fortawesome/free-brands-svg-icons';
 import { faNodeJs } from '@fortawesome/free-brands-svg-icons';
-import { faSass } from '@fortawesome/free-brands-svg-icons';
 import { faAws } from '@fortawesome/free-brands-svg-icons';
+import { faPython } from '@fortawesome/free-brands-svg-icons';
 
 export default function About() {
     return (
@@ -27,7 +27,7 @@ export default function About() {
                     <br></br>
                     As a dedicated full-stack developer, I specialize in
                     crafting dynamic and efficient web applications using JavaScript
-                    and React on the frontend and AWS/Node.js on the backend. 
+                    and React on the frontend and AWS/Python on the backend. 
                     My passion lies in writing clean code that drives interactive 
                     user experiences. With a solid foundation in modern web technologies, 
                     I excel at solving complex challenges and building intuitive 
@@ -45,8 +45,8 @@ export default function About() {
                 <FontAwesomeIcon icon={faCss3Alt} className="fa" style={{ color: '#2862E3' }} />
                 <FontAwesomeIcon icon={faJs} className="fa" style={{ color: '#E9D54C' }} />
                 <FontAwesomeIcon icon={faReact} className="fa" style={{ color: '#5ED4F4' }} />
-                <FontAwesomeIcon icon={faSass} className="fa" style={{ color: '#FF469B' }} />
                 <FontAwesomeIcon icon={faNodeJs} className="fa" style={{ color: '#509941' }} />
+                <FontAwesomeIcon icon={faPython} className="fa" style={{ color: '#376C9A' }} />
                 <FontAwesomeIcon icon={faAws} className="fa" style={{ color: '#F79D1B' }} />
             </div>
         </div>
