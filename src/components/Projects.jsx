@@ -14,7 +14,7 @@ export default function Projects() {
                 <div className="project">
                     <div className="project-text pt-switch">
                         <h2>Price Tracker</h2>
-                        <h4>A serverless web scraper application.</h4>
+                        <h4>A serverless automated web scraper application.</h4>
                         <h4>Front End: HTML, CSS, JavaScript, React</h4>
                         <h4>Back End: Flask (Python), Selenium, Docker, AWS (DynamoDB, Lambda, EC2)</h4>
                         <a href="https://main.dsrqd59wkn2z0.amplifyapp.com//" target="_blank" rel="noreferrer">
