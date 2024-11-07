@@ -2,6 +2,7 @@ import React from "react"
 import nytimes from "../images/nytimes.png"
 import resortselector from "../images/resort-selector.png"
 import pricetracker from "../images/price-tracker.png"
+import spotify from "../images/spotify.png"
 
 export default function Projects() {
     return (
@@ -11,12 +12,29 @@ export default function Projects() {
                 <div className="accent-box"></div>
             </div>
             <div className="projects-list">
+            <div className="project">
+                    <div className="blue-background">
+                        <img className="project-img" src={spotify} alt="Spotify Unwrapped"></img>
+                    </div>
+                    <div className="project-text">
+                        <h2>Spotify UNwrapped</h2>
+                        <h4>Remix tool to build instant cusotm playlists with the Spotify API.</h4>
+                        <h4>Front End: HTML, CSS, JavaScript, React</h4>
+                        <h4>Back End: Flask (Python), AWS (Lambda, Elastic Beanstalk), Kubernetes</h4>
+                        <a href="https://react-nytimes-games.netlify.app/" target="_blank" rel="noreferrer">
+                            <button className="buttonfx slideleft">Live App</button>
+                        </a>
+                        <a href="https://github.com/sgalbert818/react-nytimes-games" target="_blank" rel="noreferrer">
+                            <button className="buttonfx slideleft">Learn More</button>
+                        </a>                    
+                    </div>
+                </div>
                 <div className="project">
                     <div className="project-text pt-switch">
                         <h2>Price Tracker</h2>
-                        <h4>A serverless automated web scraper application.</h4>
+                        <h4>An automated web scraper application.</h4>
                         <h4>Front End: HTML, CSS, JavaScript, React</h4>
-                        <h4>Back End: Flask (Python), Selenium, Docker, AWS (DynamoDB, Lambda, EC2)</h4>
+                        <h4>Back End/Hosting: Flask (Python), Selenium, Docker, AWS (DynamoDB, Lambda, EC2)</h4>
                         <a href="https://main.dsrqd59wkn2z0.amplifyapp.com//" target="_blank" rel="noreferrer">
                             <button className="buttonfx slideleft">Live App</button>
                         </a>
