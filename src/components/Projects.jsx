@@ -2,7 +2,6 @@ import React from "react"
 import nytimes from "../images/nytimes.png"
 import resortselector from "../images/resort-selector.png"
 import pricetracker from "../images/price-tracker.png"
-import spotify from "../images/spotify.png"
 
 export default function Projects() {
     return (
