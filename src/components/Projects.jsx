@@ -11,24 +11,7 @@ export default function Projects() {
                 <h2>Projects</h2>
                 <div className="accent-box"></div>
             </div>
-            <div className="projects-list">
-            <div className="project">
-                    <div className="blue-background">
-                        <img className="project-img" src={sportspredictor} alt="Game Day Insights"></img>
-                    </div>
-                    <div className="project-text">
-                        <h2>Game Day Insights</h2>
-                        <h4>*In Progress*</h4>
-                        <h4>A sports outcome predictor, enabling users to place educated bets based on history, injuries, weather, and more.</h4>
-                        <h4>Flask (Python), Pandas, Scikit-learn</h4>
-                        {/*<a href="https://react-nytimes-games.netlify.app/" target="_blank" rel="noreferrer">
-                            <button className="buttonfx slideleft">Live App</button>
-                        </a>
-                        <a href="https://github.com/sgalbert818/react-nytimes-games" target="_blank" rel="noreferrer">
-                            <button className="buttonfx slideleft">Learn More</button>
-                        </a>*/}                   
-                    </div>
-                </div>
+            <div className="projects-list">                 
                 <div className="project">
                     <div className="project-text pt-switch">
                         <h2>Price Tracker</h2>
@@ -78,7 +61,6 @@ export default function Projects() {
                     </div>
                 </div>
             </div>
-
         </div>
     )
 }
